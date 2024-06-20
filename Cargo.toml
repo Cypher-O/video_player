@@ -1,0 +1,16 @@
+[package]
+name = "video_player"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+fltk = { version = "^1.4", features = ["use-ninja"] }
+vlc-rs = { git = "https://github.com/garkimasera/vlc-rs.git" }
+winit = "0.30.2"
+rodio = "0.18.1"
+sdl2 = { version = "0.37.0", features = ["bundled"] }
+ffmpeg-next = "7.0.2"
+rfd = "0.14.1" 
+log = "0.4"
+env_logger = "0.11.3"
+
